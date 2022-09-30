@@ -1,7 +1,7 @@
 import math
 def solve_quadratic_eqn(a:float,b:float, c:float):
     D = (b**2)-(4*a*c)
-    x1=(-b + math.sqrt(abs(D)))/(2*a)
+    x1=(-b + math.sqrt(abs(D)))/(2*a)  //abs from math module
     x2=(-b - math.sqrt(abs(D)))/(2*a)
     if D>0:
         print("root 1 and root 2", x1 , x2 ,"Real and Unequal Roots")
